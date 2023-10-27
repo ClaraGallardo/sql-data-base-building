@@ -14,6 +14,8 @@ Haremos un breve analaisis para ver que información podemos proporcinar a Bob.
 
 Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 
+*******NOTA PERSONAL: va abrir una tienda nueva. Pensar que relación puede tener... si la tiene
+
 ### Limpieza:
 
 -Actores: 
@@ -24,5 +26,9 @@ Al sacar duplicados poner False pero si jbuscamos por nombre y apellido no apare
 -Categoría:
 
 Igual,ponemos bien los títulos,sin valores nulos ni duplicados
+-Film:
+-Inventory:
+-Languagr4-old_HDD
+-Rental
 
 
