@@ -25,8 +25,11 @@ Al sacar duplicados poner False pero si jbuscamos por nombre y apellido no apare
 
 -Categoría:
 
-Igual,ponemos bien los títulos,sin valores nulos ni duplicados
+Igual,ponemos bien los títulos,sin valores nulos ni duplicados.
+
 -Film:
+
+
 -Inventory:
 -Languagr4-old_HDD
 -Rental
