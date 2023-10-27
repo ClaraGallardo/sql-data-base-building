@@ -1,6 +1,9 @@
 
 import pandas as pd
 
+def abrir_csv(csv):
+    
+
 def verificar_nulos(df):
     '''
     Verifica que los nombres de las columnas de un DataFrame no contengan nulos ni Nan.

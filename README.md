@@ -2,6 +2,8 @@
 
 ![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/1366_2000.jpg)
 
+¡Hi Bob!🧔‍♂️
+
 Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub 🎞️ con el que ha estado soñando siempre.
 Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recuperar una antigua base de datos de un viejo ordenador que encontró en la tienda que pertencia al señor Montgomery Bumblebritches,el antiguo dueño de la tienda. 
 
@@ -11,7 +13,7 @@ Nos pide que recuperemos las antiguas fichas de la base de datos y de clientes, 
 
 # Objetivo:
 
-Nos ha pasado varios archivos que formaban parte de una base de datos. Debemos hacer una limpieza de datos y construir nuestra base de datos para Bob. 🧔‍♂️ Así podrá tener todas sus películas al día y acceder a ella facilmente.
+Nos ha pasado varios archivos que formaban parte de una base de datos. Debemos hacer una limpieza de datos y construir nuestra base de datos para Bob. Así podrá tener todas sus películas al día y acceder a ella facilmente.
 
 Haremos un breve analaisis para ver que información podemos proporcinar a Bob. 💻
 
