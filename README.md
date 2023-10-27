@@ -1,6 +1,6 @@
 # PROYECTO:
 
-![imagenlocal]("C:\Users\Usuario\ironhack\proyectos\sql-data-base-building\image\1366_2000.jpg")
+![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/1366_2000.jpg)
 
 Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub con el que ha estado soñando siempre. Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recuperar una antigua base de datos de un viejo ordenador que encontró en la tienda que pertencia al señor Montgomery Bumblebritches,el antiguo dueño de la tienda.
 
