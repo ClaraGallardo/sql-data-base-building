@@ -29,6 +29,9 @@ Igual,ponemos bien los títulos,sin valores nulos ni duplicados.
 
 -Film:
 
+Ponemos bien los títulos , tenemos una columna llena de nulos, la borramos.
+
+Ponemos bien los títulos, no tenemos ningun duplicado ni nulos.
 
 -Inventory:
 -Languagr4-old_HDD
