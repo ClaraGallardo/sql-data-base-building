@@ -19,6 +19,10 @@ Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 -Actores: 
 
 Sin,valores nulos. Ponemos bonitos los títulos de las columnas.
+Al sacar duplicados poner False pero si jbuscamos por nombre y apellido no aparece uno 🔎🔎. Lo quitaos ponemos los actor id bien para que no haya salto y reseteamos index.
 
+-Categoría:
+
+Igual,ponemos bien los títulos,sin valores nulos ni duplicados
 
 
