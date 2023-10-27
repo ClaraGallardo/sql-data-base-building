@@ -2,8 +2,10 @@
 
 ![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/1366_2000.jpg)
 
-Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub🎞️ con el que ha estado soñando siempre.
-Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recuperar una antigua base de datos de un viejo ordenador que encontró en la tienda que pertencia al señor Montgomery Bumblebritches,el antiguo dueño de la tienda.Nos pide que recuperemos las antiguas fichas de 
+Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub 🎞️ con el que ha estado soñando siempre.
+Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recuperar una antigua base de datos de un viejo ordenador que encontró en la tienda que pertencia al señor Montgomery Bumblebritches,el antiguo dueño de la tienda. 
+
+Nos pide que recuperemos las antiguas fichas de la base de datos y de clientes, además quiere saber que películas fueron las mas populares. Además quiere saber el inventario actual de la tienda y si algún cliente se quedo con alguna película.
 
 ## Introdución:
 
@@ -20,7 +22,9 @@ Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 ### Limpieza:
 
 Cargamos los archivos csv al jupyter notebbok.Tras echar un vistazo a los archivos csv vamos a limpiarlos.
+Creamos nuestra librería con las funciones de limpieza
 
+Los dataframe revisidos y limpiados:
 -Actors: 
 
 Sin,valores nulos. Ponemos bonitos los títulos de las columnas.
