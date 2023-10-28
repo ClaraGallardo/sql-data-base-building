@@ -20,12 +20,12 @@ Haremos un breve analaisis para ver que información podemos proporcinar a Bob. 
 
 Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 
-*******NOTA PERSONAL: va abrir una tienda nueva. Pensar que relación puede tener... si la tiene
+*******NOTA PERSONAL: va abrir una tienda nueva. Pensar que relación puede tener... si la tiene.
 
 ### Limpieza:
 
 Cargamos los archivos csv al jupyter notebbok.Tras echar un vistazo a los archivos csv vamos a limpiarlos.
-Creamos nuestra librería con las funciones de limpieza 🧽🧹
+Creamos nuestra librería con las funciones de limpieza 🧽🧹.
 
 Los dataframe revisidos y limpiados:
 
@@ -34,11 +34,11 @@ Los dataframe revisidos y limpiados:
 Sin,valores nulos. Ponemos bonitos los títulos de las columnas.
 Al sacar duplicados pone False, pero si buscamos por nombre y apellido no aparece uno 🔎🔎. 
 Lo quitamos y ponemos actor id bien para que no haya salto y reseteamos index.
-Convertimos la columna Last Update de dataTime
+Convertimos la columna Last Update de dataTime.
 
 -Category:
 
-Igual,ponemos bien los títulos,sin valores nulos ni duplicados.Covertimos las fechas a dataTime
+Igual,ponemos bien los títulos,sin valores nulos ni duplicados.Covertimos las fechas a dataTime.
 
 -Film:
 
@@ -51,11 +51,11 @@ Idem 🟰
 
 -Language:
 
-Idem 
+Idem 🟰
 
 -old_HDD:
 
-Idem, los duplicados los filtro de manera diferente, miro si el actor aparece mas de una vez en una misma película
+Idem, los duplicados los filtro de manera diferente, miro si el actor aparece mas de una vez en una misma película.
 
 -Rental:
 
