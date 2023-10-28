@@ -1,6 +1,6 @@
 # PROYECTO:
 
-![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/1366_2000.jpg)
+![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/fotor-ai-20231028115253.jpg)
 
 ## Introdución:
 
