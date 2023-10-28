@@ -1,8 +1,23 @@
-
 import pandas as pd
 
-def abrir_csv(csv):
+def abrir_csv(ruta):
+    """
+    Abre un archivo CSV y lo devuelve como un DataFrame.
+
+    Args:
+        archivo: La ruta del archivo CSV.
+
+    Returns:
+        Un DataFrame con los datos del archivo CSV.
+
+        Ejemplo de uso:
+
+        ruta = "../data/actor.csv"
+        df = abrir_csv(ruta)
+    """
     
+    return pd.read_csv(ruta, encoding='latin1')
+
 
 def verificar_nulos(df):
     '''
@@ -17,7 +32,7 @@ def verificar_nulos(df):
     '''
     
     null = df.isnull().sum()
-    nan = df.inan().sum()
+    nan = df.isna().sum()
 
     return pd.DataFrame({'Valores Nulos': null,'Valores Nan': nan})
 
@@ -46,7 +61,7 @@ def duplicados (df):
     '''
     return df.duplicated().sum()
 
-def convertir_fecha(df, column_name, date_format):
+def convertir_fecha(df):
     '''
     Combierte los valores de un dataframe a data time,siempre que este en el formato correcto.
 
@@ -57,11 +72,9 @@ def convertir_fecha(df, column_name, date_format):
 
     Returns:
         Devuelve la cantidad de valores duplicados que tiene el DataFrame
+    
     '''
-    df[column_name] = pd.to_datetime(df[column_name], format=date_format)
+    
+    df['Last Update'] = pd.to_datetime(df['Last Update'], format="%Y-%m-%d %H:%M:%S")
     return df
 
-def convertir_fecha(df, column_name, date_format):
-
-    df[column_name] = pd.to_datetime(df[column_name], format=date_format)
-    return df

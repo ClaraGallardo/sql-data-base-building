@@ -2,6 +2,8 @@
 
 ![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/1366_2000.jpg)
 
+## Introdución:
+
 ¡Hi Bob!🧔‍♂️
 
 Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub 🎞️ con el que ha estado soñando siempre.
@@ -9,7 +11,6 @@ Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recu
 
 Nos pide que recuperemos las antiguas fichas de la base de datos y de clientes, además quiere saber que películas fueron las mas populares. Además quiere saber el inventario actual de la tienda y si algún cliente se quedo con alguna película.
 
-## Introdución:
 
 # Objetivo:
 
@@ -24,29 +25,33 @@ Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 ### Limpieza:
 
 Cargamos los archivos csv al jupyter notebbok.Tras echar un vistazo a los archivos csv vamos a limpiarlos.
-Creamos nuestra librería con las funciones de limpieza
+Creamos nuestra librería con las funciones de limpieza 🧽🧹
 
 Los dataframe revisidos y limpiados:
+
 -Actors: 
 
 Sin,valores nulos. Ponemos bonitos los títulos de las columnas.
-Al sacar duplicados pone False, pero si buscamos por nombre y apellido no aparece uno 🔎🔎. Lo quitamos y ponemos actor id bien para que no haya salto y reseteamos index.
+Al sacar duplicados pone False, pero si buscamos por nombre y apellido no aparece uno 🔎🔎. 
+Lo quitamos y ponemos actor id bien para que no haya salto y reseteamos index.
+Convertimos la columna Last Update de dataTime
 
 -Category:
 
-Igual,ponemos bien los títulos,sin valores nulos ni duplicados.
+Igual,ponemos bien los títulos,sin valores nulos ni duplicados.Covertimos las fechas a dataTime
 
 -Film:
 
 Ponemos bien los títulos , tenemos una columna(Original Language Id) llena de nulos, la borramos.
+El resto igual sin nulos ni dupplicados.
 
 -Inventory:
 
-Ponemos bien los títulos, no tenemos ningun duplicados ni nulos.
+Idem 🟰
 
 -Language:
 
-Al igual que en los anteriores dataframe ponemos títulos, sin duplicados ni nulos y quitamos la columna .
+Idem 
 
 -old_HDD:
 
@@ -54,7 +59,7 @@ Idem, los duplicados los filtro de manera diferente, miro si el actor aparece ma
 
 -Rental:
 
-Idem, reviso que las fechas de devolución sean mayores a las adquisición, para ello tenemos que cambiar el formato primero a datatime.
+Idem, reviso que las fechas de devolución sean mayores a las adquisición.
 
 
 
