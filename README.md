@@ -7,7 +7,7 @@
 1.Introdución.\
 2.Objetivo.\
 3.Analisis general y limpieza.\
-4.SQL.\
+4.Creación de la base de datos.
 
 ## Introdución:
 
@@ -76,4 +76,7 @@ Guardamos los archibvos limpios como **df_limpio.csv**
 
 ### SQL:
 
+Una vez tenemos los csv limpios, los cargamos a mysql workbench para crear las relaciones entre las tablas cargadas.
+
+![Alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/Captura%20de%20pantalla%202023-10-30%20130124.png)
 
