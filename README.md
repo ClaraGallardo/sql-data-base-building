@@ -4,10 +4,10 @@
 
 ## INDICE:
 
-1.Introdución
-2.Objetivo
-3.Analisis general y limpieza
-4.SQL
+1.Introdución.\
+2.Objetivo.\
+3.Analisis general y limpieza.\
+4.SQL.\
 
 ## Introdución:
 
