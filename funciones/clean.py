@@ -78,3 +78,35 @@ def convertir_fecha(df):
     df['Last Update'] = pd.to_datetime(df['Last Update'], format="%Y-%m-%d %H:%M:%S")
     return df
 
+def save(dataframe, filename):
+    """
+    Guarda un DataFrame en un archivo CSV sin incluir el índice.
+
+    Args:
+        dataframe (pandas.DataFrame): El DataFrame que guardas.
+        filename (str): El nombre del archivo CSV donde quieras guardar el DataFrame.
+    """
+    return dataframe.to_csv(filename, index=False)
+
+def optim(df):
+
+    '''
+    Optimiza los datos de un dataframe.
+
+    Args:
+        dataframe(pandas.DataFrame): El DataFrame que transofrmas
+    '''
+    int_columnas = df.select_dtypes(include=['int']).columns
+    df[int_columnas] = df[int_columnas].apply(pd.to_numeric, downcast='integer')
+
+    float_columnas = df.select_dtypes(include=['float']).columns
+    df[float_columnas] = df[float_columnas].apply(pd.to_numeric, downcast='float')
+
+    object_columnas = df.select_dtypes(include=['object']).columns
+    df[object_columnas] = df[object_columnas].astype('category')
+
+    datetime_columnas = df.select_dtypes(include=['datetime']).columns
+    df[datetime_columnas] = df[datetime_columnas].apply(pd.to_datetime, errors='coerce')
+
+    return df
+
