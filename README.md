@@ -16,8 +16,6 @@
 Bob Gunderson de Machasuchet nos ha contactado para reabrir un antiguo videoclub 🎞️ con el que ha estado soñando siempre.
 Parece que Bob tiene las ideas claras cuando nos cuenta su historia. Quiere recuperar una antigua base de datos de un viejo ordenador que encontró en la tienda que pertencia al señor Montgomery Bumblebritches,el antiguo dueño de la tienda. 
 
-Nos pide que recuperemos las antiguas fichas de la base de datos y de clientes, además quiere saber que películas fueron las mas populares. Además quiere saber el inventario actual de la tienda y si algún cliente se quedo con alguna película.
-
 
 ## Objetivo:
 
@@ -38,7 +36,7 @@ Creamos nuestra librería con las funciones de limpieza 🧽🧹.
 Sin,valores nulos. Ponemos bonitos los títulos de las columnas.
 Al sacar duplicados pone False, pero si buscamos por nombre y apellido no aparece uno 🔎🔎. 
 
-![Alt text](<nombre repetido.png>)
+![Alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/nombre%20repetido.png)
 
 Lo quitamos y ponemos actor id bien para que no haya salto y reseteamos index.
 Convertimos la columna Last Update de dataTime.
@@ -51,8 +49,9 @@ Igual,ponemos bien los títulos,sin valores nulos ni duplicados.Covertimos las f
 -Film:
 
 Ponemos bien los títulos , tenemos una columna(Original Language Id) llena de nulos, la borramos.
-Rellenamos la columna de language Id de numeros aleatorios para luego usar
+Rellenamos la columna de **language Id** de numeros aleatorios para luego usar.
 El resto igual sin nulos ni dupplicados.
+Las fechas de **Release Year** son todas del 2006 Pero en las fechas de alquiler son anteriores, de 2005. Es una columna incorrecta por lo que la borramos.
 
 -Inventory:
 
@@ -65,16 +64,15 @@ Idem 🟰
 -old_HDD:
 
 Idem, los duplicados los filtro de manera diferente, miro si el actor aparece mas de una vez en una misma película.
-Añado una nueva columnas con el Actor Id correspondiente a cada actor segun el dataframe actors.
-
-![Alt text](<Captura de pantalla 2023-10-29 162050.png>)
+Añado una nueva columnas con el **Actor Id** correspondiente a cada actor segun el dataframe actors.
 
 -Rental:
 
-Idem, reviso que las fechas de devolución sean mayores a las adquisición.
+Idem, reviso que las fechas de devolución sean mayores a las adquisición. Se obesrvan que el número de film id es mayor al número de pelíclulas registradas.
+AL final decido no cargarlo en la base de datos ya que la información antigua no me vale para mis objetivos.
 
 
-Guardamos los archibvos limpios como df_limpio.csv
+Guardamos los archibvos limpios como **df_limpio.csv**
 
 ### SQL:
 
