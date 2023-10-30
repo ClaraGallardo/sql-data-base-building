@@ -2,7 +2,12 @@
 
 ![alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/fotor-ai-20231028115253.jpg)
 
-Índice: meter hipervínculos
+## INDICE:
+
+1.Introdución
+2.Objetivo
+3.Analisis general y limpieza
+4.SQL
 
 ## Introdución:
 
@@ -16,20 +21,17 @@ Nos pide que recuperemos las antiguas fichas de la base de datos y de clientes, 
 
 ## Objetivo:
 
-Nos ha pasado varios archivos que formaban parte de una base de datos. Debemos hacer una limpieza de datos y construir nuestra base de datos para Bob. Así podrá tener todas sus películas al día y acceder a ella facilmente.
+Debemos hacer una limpieza de datos y construir una nueva base de datos para Bob. Así podrá tener todas sus películas al día y acceder a ellas facilmente.
 
 Haremos un breve analaisis para ver que información podemos proporcinar a Bob. 💻
 
 Tras hechar un vistazo a los archivos csv vamos a limpiarlos.
 
-*******NOTA PERSONAL: va abrir una tienda nueva. Pensar que relación puede tener... si la tiene.
 
-### Limpieza:
+## Analisis general y limpieza:
 
 Cargamos los archivos csv al jupyter notebbok.Tras echar un vistazo a los archivos csv vamos a limpiarlos.
 Creamos nuestra librería con las funciones de limpieza 🧽🧹.
-
-Los dataframe revisidos y limpiados:
 
 -Actors: 
 
