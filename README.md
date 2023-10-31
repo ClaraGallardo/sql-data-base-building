@@ -80,3 +80,9 @@ Una vez tenemos los csv limpios, los cargamos a mysql workbench para crear las r
 
 ![Alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/Captura%20de%20pantalla%202023-10-30%20130124.png)
 
+La mostramos a Bob, Hi Bob¡🧔‍♂️, el inventario que tenía la tienda.
+
+![Alt text](https://github.com/ClaraGallardo/sql-data-base-building/blob/main/image/Captura%20de%20pantalla%202023-10-31%20081621.png)
+
+FIN 👋
+
